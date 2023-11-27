@@ -1,0 +1,49 @@
+body{
+    background-color: blue;
+}
+.box{
+    background-color: burlywood;
+    height: 500px;
+    border: 20px solid white;
+    display: grid;
+    grid-template-areas: 
+                        "T T T"
+                        "ML C MR"
+                        "RO RO RO";
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 200px 1fr 200px;
+}
+.titulo{
+    background-color: red;
+    height: 100px;
+    grid-area: T;
+}
+
+.menuL{
+    background-color: yellow;
+    grid-area: ML;
+}
+
+.caixa1{
+    background-color: blue;
+}
+.caixa2{
+    background-color: rgb(64, 64, 255);
+}
+.caixa3{
+    background-color: rgb(126, 126, 255);
+}
+
+.conteudo{
+    background-color: green;
+    grid-area: C;
+}
+.menuR{
+    background-color: orange;
+    grid-area: MR;
+}
+
+.rodape{
+    background-color: blueviolet;
+    grid-area: RO;
+}

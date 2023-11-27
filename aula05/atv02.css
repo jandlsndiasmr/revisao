@@ -1,0 +1,31 @@
+body{
+    background-color: green;
+}
+.box{
+    background-color: blue;
+    height: 600px;
+    border: 5px;
+    display: grid;
+    grid-template-areas:
+                        "ti ti ti"
+                        "ml co mr";
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 200px 1fr 200px;
+}
+.ti{
+    background-color: yellow;
+    grid-area: ti;
+    text-align: center;
+}
+.ml{
+    background-color: red;
+    grid-area: ml;
+}
+.mr{
+    background-color: silver;
+    grid-area: mr;
+}
+.co{
+    background-color: purple;
+    grid-area: co;
+}
